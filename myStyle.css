@@ -42,15 +42,21 @@ aside
     margin: 0 10px 10px 0;
     padding: 10px;
     background-color: purple;
+    float: left;
 }
 section
 {
-    width: 680px;
+    width: 710px;
     height: 400px;
+    margin: 0 0 10px 0;
+    padding: 10px;
     background-color: green;
+    float: left;
 }
 
 footer
 {
     background-color: blue;
+    padding: 10px;
+    clear: both;
 }
