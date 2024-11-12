@@ -45,6 +45,8 @@ aside
 }
 section
 {
+    width: 680px;
+    height: 400px;
     background-color: green;
 }
 
