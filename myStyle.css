@@ -44,15 +44,30 @@ nav li {
 nav a:link {
     color: ivory;
 }
-aside 
+#Intro
 {
     width: 200px;
-    height: 550px;
+    height: fit-content;
     margin: 0 0 10px 0;
     padding: 10px;
-    background-color: purple;
+    background-color: black;
     float: left;
+    clear: right;
+    border-style: solid;
+    border-color: aliceblue;
     
+}
+#Details
+{
+    width: fit-content;
+    height: fit-content;
+    margin: 0 0 10px 0;
+    padding: 10px;
+    background-color: black;
+    float: left;
+    clear: right;
+    border-style: solid;
+    border-color: aliceblue;
 }
 section
 {
@@ -60,8 +75,10 @@ section
     height: fit-content;
     margin: 0 0 10px 0;
     padding: 10px;
-    background-color: green;
-    float: left;
+    background-color: black;
+    border-style: solid;
+    border-color: aliceblue;
+    clear:both;
 }
 
 footer
@@ -70,6 +87,12 @@ footer
     padding: 10px;
     clear: both;
 }
-h1 {
+h1, h2, p {
+    color: white;
+}
+ul {
+    color: white;
+}
+li {
     color: white;
 }
