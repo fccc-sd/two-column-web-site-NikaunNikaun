@@ -10,7 +10,7 @@ body
 }
 #container 
 {
-width: fit-content;
+width: auto;
 background-image:url(skulls.png);
 margin: 0 auto;
 
@@ -20,18 +20,20 @@ margin: 0 auto;
 header 
 {
     height: fit-content;
-    width: 1370px;
+    width: auto;
     padding: 25px;
     background-color: black;
     border-style: solid;
     border-color: aliceblue;
+    
 }
 nav 
 {
-    width: 1400px;
+    width: auto;
     background-color: darkred;
     Padding: 10px;
     margin-bottom: 10px;
+    
    
 }
 nav li {
